@@ -1,0 +1,50 @@
+.container h1{
+
+    color: rgba(255,255,255,0.9);
+}
+body {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #5b9d68;
+}
+input {
+    width: 184px;
+    font-size: 1.1rem;
+}
+input:focus {
+    outline: none;
+}
+.hidden {
+    visibility: hidden;
+    font-weight: 600;
+    color: red;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: rgb(57, 102, 68);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  #hexError{
+    color: rgb(36, 31, 31);
+  }
